@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Breach Checker</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  Hello world
-  <script src="scripts/scripts.js"></script>
-</old_str>
-</body>
+  <div class="container">
+    <h1>🔐 Breach Checker</h1>
+    <p>Enter your email to see if it’s been involved in a data breach.</p>
 
+    <form id="breach-form">
+      <input type="email" id="email" placeholder="your@email.com" required />
+      <button type="submit">Check Breaches</button>
+    </form>
+
+    <div id="result-area"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
